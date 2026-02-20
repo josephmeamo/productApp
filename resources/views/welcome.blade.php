@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product List</title>
+    <title>Laravel Products Application</title>
     <style>
-        table {
-            width: 70%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        h2 {
-            text-align: center;
-        }
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: 20px auto; }
+        h1, h2 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #333; padding: 10px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        p { text-align: justify; }
     </style>
 </head>
 <body>
+
+<div class="container">
+    <h1>Laravel Products Application</h1>
+
+    <h2>Objective</h2>
+    <p>
+        You are to develop a simple Laravel application that will display an array of products in an organized manner.
+        This demonstrates your understanding of File Structure, Routing, Controllers, and Models in Laravel.
+    </p>
 
     <h2>Product List</h2>
 
@@ -39,6 +39,7 @@
         </tr>
         @endforeach
     </table>
+</div>
 
 </body>
 </html>
